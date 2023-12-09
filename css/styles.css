@@ -1,0 +1,20 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  gap: 24px;
+  justify-content: center;
+}
+
+.gallery-link {
+  display: block;
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+  transform: scale(1);
+}
+
+.gallery-link:hover,
+.gallery-link:focus {
+  transform: scale(1.03);
+}
